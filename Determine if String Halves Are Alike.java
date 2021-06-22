@@ -4,7 +4,7 @@ class Solution {
         int count1 = 0;
         int count2 = 0;
         // String first_half=s.substring(0,half);
-        // String second_half=s.substring(half,s.length());
+        // String second_half=s.substring(half,s.length());//
         s = s.toLowerCase();
         for (int i = 0; i < half; i++) {
             if (s.charAt(i) == 'a' || s.charAt(i) == 'e' || s.charAt(i) == 'i' || s.charAt(i) == 'o'
